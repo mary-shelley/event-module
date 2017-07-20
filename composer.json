@@ -1,0 +1,30 @@
+{
+    "name": "wdalmut/frankie-event-module",
+    "description": "Frankie event dispatcher module",
+    "type": "library",
+    "require": {
+        "zendframework/zend-servicemanager": "~3",
+        "wdalmut/frankie-modular": "dev-master",
+        "symfony/event-dispatcher": "~3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walter Dal Mut",
+            "email": "walter.dalmut@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Corley\\EventDispatcherModule\\": ["./src"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Corley\\EventDispatcherModule\\": ["./tests"]
+        }
+    }
+}
